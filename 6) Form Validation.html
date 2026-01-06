@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="6) Form Validation.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Register</h2>
+      <form id="registerForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <div id="nameError" class="error"></div>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" />
+        <div id="emailError" class="error"></div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" />
+        <div id="passwordError" class="error"></div>
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          placeholder="Confirm password"
+        />
+        <div id="confirmError" class="error"></div>
+        <button type="submit">Register</button>
+        <div id="successMessage" class="success"></div>
+      </form>
+    </div>
+    <script src="6) Form Validation.js"></script>
+  </body>
+</html>
